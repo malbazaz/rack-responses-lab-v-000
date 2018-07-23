@@ -6,7 +6,7 @@ class Application
     binding.pry
     noon = Time.new
     noon.hour = 12
-    
+
   end
 
 
