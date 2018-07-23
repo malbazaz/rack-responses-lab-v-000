@@ -5,8 +5,8 @@ class Application
     resp = Rack::Response.new
     noon = Time.new
     noon.hour = 12
-    binding.pry 
-  end 
+    binding.pry
+  end
 
 
 end
