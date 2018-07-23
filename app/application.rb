@@ -3,9 +3,10 @@ class Application
 
   def call(env)
     resp = Rack::Response.new
+    binding.pry
     noon = Time.new
     noon.hour = 12
-    binding.pry
+    
   end
 
 
