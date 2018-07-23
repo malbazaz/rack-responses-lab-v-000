@@ -7,9 +7,9 @@ class Application
     noon = Time.new(2010,01,01, 12,0,0)
     binding.pry
     if noon.hour < Time.now.hour
-      resp.write("Good Morning")
+      resp.write "Good Morning"
     else
-      resp.write("Good Afternoon")
+      resp.write "Good Afternoon"
     end
     resp.finish
   end
